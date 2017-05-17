@@ -67,17 +67,5 @@ public class Calculations {
         operation='n';
         firstNum=true;
     }
-    public void equalsReset(String answer){
-        if(answer!="Error") {
-            num1 = answer;
-        }
-        else {
-            num1="";
-        }
-        num2="";
-        operation='n';
-        firstNum=true;
-    }
-
 }
 

@@ -129,24 +129,32 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 text.setText(calculations.numDisplay());
                 break;
             case R.id.buttonAdd:
-                calculations.operationsInput('+');
-                number="";
-                text.setText(calculations.numDisplay());
+                if(number!="") {
+                    calculations.operationsInput('+');
+                    number = "";
+                    text.setText(calculations.numDisplay());
+                }
                 break;
             case R.id.buttonDivide:
-                calculations.operationsInput('/');
-                number="";
-                text.setText(calculations.numDisplay());
+                if(number!="") {
+                    calculations.operationsInput('/');
+                    number = "";
+                    text.setText(calculations.numDisplay());
+                }
                 break;
             case R.id.buttonSub:
-                calculations.operationsInput('-');
-                number="";
-                text.setText(calculations.numDisplay());
+                if(number!="") {
+                    calculations.operationsInput('-');
+                    number = "";
+                    text.setText(calculations.numDisplay());
+                }
                 break;
             case R.id.buttonMulti:
-                calculations.operationsInput('*');
-                number="";
-                text.setText(calculations.numDisplay());
+                if(number!="") {
+                    calculations.operationsInput('*');
+                    number = "";
+                    text.setText(calculations.numDisplay());
+                }
                 break;
             case R.id.buttonPeriod:
                 if(!number.contains(".")&&number!="") {
@@ -161,19 +169,19 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 }
                 break;
             case R.id.buttonPlusMinus:
-                if(number!="") {
-                    number = "-" + number;
+                if(number==""){
+                    break;
+                }else {
+                    number = Double.toString(Double.parseDouble(number) * -1);
                     calculations.numInput(number);
                     text.setText(calculations.numDisplay());
+                    break;
                 }
-                break;
             case R.id.buttonEquals:
                 String finalNum=calculations.calculator();
                 text.setText(finalNum);
-                calculations.equalsReset(finalNum);
-                if(finalNum=="Error"){
-                    number="";
-                }
+                calculations.clearAndReset();
+                number="";
                 break;
             case R.id.buttonClear:
                 calculations.clearAndReset();

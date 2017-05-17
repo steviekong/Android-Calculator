@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Program Files\Android\Android Studio\gradle\m2repository\com\android\databinding\baseLibrary\2.3.2\baseLibrary-2.3.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="3162679b4009fde859f7eb61c93b6f44d85b3233">
+        <dex dex="C:\Users\Sid-rk\AndroidStudioProjects\BackGround_color_changer\app\build\intermediates\transforms\dex\debug\folders\1000\10\baseLibrary-2.3.2_1e696269cb3417ae94053e15fef01f5018fa18cd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sid-rk\.android\build-cache\fdced88e44fecd20e34dd95822dba1c8b3d071b8\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="7f2f348b830f292429db987f74ba3e67c6752322">
+        <dex dex="C:\Users\Sid-rk\AndroidStudioProjects\BackGround_color_changer\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6d39abaf014cc42e3251ca12dc09dc991afef7f5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sid-rk\AndroidStudioProjects\BackGround_color_changer\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
+        <dex dex="C:\Users\Sid-rk\AndroidStudioProjects\BackGround_color_changer\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_494c034d287771df262e0a4849c8f895db8565ef\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sid-rk\AndroidStudioProjects\BackGround_color_changer\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="c7ac4f08c0cc72037a9ff14f3301dbaa14d9baab">
+        <dex dex="C:\Users\Sid-rk\AndroidStudioProjects\BackGround_color_changer\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_494aa5a74215129f1cfdf17e1453d59814617aeb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Sid-rk\.android\build-cache\c4a377a78076315c9ebc137acf7016e500ac5185\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="68956f5ba1517b7a3d513ba540548e257741cbae">
+        <dex dex="C:\Users\Sid-rk\AndroidStudioProjects\BackGround_color_changer\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_bc8b7e2c1659e32acf34e39f6f218b5e773178c5\classes.dex" />
+    </item>
+
+</items>
